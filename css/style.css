@@ -1,0 +1,233 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-regular.woff2")
+      format("woff2"),
+    url("../fonts/roboto-v30-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-regular.woff")
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-500.woff2")
+      format("woff2"),
+    url("../fonts/roboto-v30-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-500.woff")
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-700.woff2")
+      format("woff2"),
+    url("../fonts/roboto-v30-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-700.woff")
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-weight: 400;
+  src: url("../fonts/play-v19-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-regular.woff2")
+      format("woff2"),
+    url("../fonts/play-v19-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-regular.woff")
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-weight: 700;
+  src: url("../fonts/play-v19-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-700.woff2")
+      format("woff2"),
+    url("../fonts/play-v19-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-700.woff")
+      format("woff");
+}
+
+:root {
+  --color-primary-dark: #011c44;
+  --color-primary-light: #2b7fff;
+  --color-brand-dark: #000000;
+  --color-brand-light: #ffffff;
+  --color-normal-dark: #011f4a;
+  --color-normal-light: #747272;
+  --color-consultation: #4a4a4a;
+}
+
+/* Base */
+body {
+  color: var(--color-primary-dark);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.17;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Link */
+.link {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.link:hover {
+  color: var(--color-primary-light);
+  font-weight: 700;
+}
+
+/* Hero section */
+.clinic {
+  font-size: 18px;
+}
+
+.hero-title {
+  color: var(--color-primary-light);
+  font-family: "Play", sans-serif;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.8;
+  text-transform: capitalize;
+}
+
+/* Batton */
+.button {
+  color: var(--color-brand-light);
+  font-weight: 600;
+  background-color: var(--color-primary-light);
+  border: 2px solid var(--color-primary-light);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+}
+
+.consultation {
+  color: var(--color-consultation);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Advantates section */
+.section-title {
+  color: var(--color-primary-light);
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.section-title .accent {
+  color: var(--color-primary-dark);
+}
+
+#choice-section .section-title {
+  text-align: center;
+}
+
+#procedures-section .section-title {
+  text-align: center;
+}
+
+#contact-section .section-title {
+  text-align: center;
+}
+
+/* Reincarnate */
+.reincarnate {
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+.reincarnate .standart-title {
+  font-weight: 600;
+}
+
+/* Choice */
+.advantages-title {
+  color: var(--color-brand-dark);
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+}
+
+/* Procedures */
+.face-title {
+  color: var(--color-brand-light);
+  font-size: 22px;
+  line-height: 1.18;
+  text-align: center;
+  background-color: var(--color-normal-dark);
+}
+
+/* Contact */
+.contact-title {
+  color: var(--color-brand-light);
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.contact-title .present {
+  color: var(--color-primary-light);
+}
+
+.contacts-list {
+  color: var(--color-brand-light);
+  background-color: var(--color-normal-dark);
+  font-size: 13px;
+}
+
+.button2 {
+  color: var(--color-brand-light);
+  font-weight: 600;
+  background-color: var(--color-primary-light);
+  border: 2px solid var(--color-primary-light);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.contacts-list .button2:hover {
+  background-color: transparent;
+}
+
+.privacy-policy {
+  color: var(--color-normal-light);
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Footer */
+.foot {
+  background-color: var(--color-normal-dark);
+}
+
+.link-foot {
+  color: var(--color-brand-light);
+  text-decoration: none;
+}
+
+.link-foot:hover {
+  color: var(--color-primary-light);
+}
+
+.privacy-policy-foot {
+  color: var(--color-normal-light);
+  font-size: 12px;
+  line-height: 1.5;
+}
